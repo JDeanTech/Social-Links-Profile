@@ -1,0 +1,35 @@
+/* Margin PAdding Reset
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Actual HTML Styling*/
+
+body{/*background image styling*/
+    background-image: url(/images/background-technology-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.social-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
