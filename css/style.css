@@ -1,35 +1,94 @@
-/* Margin PAdding Reset
-html, body{
+/* Margin Padding Reset (if needeed)*/
+
+*{ /*Universal Selector to style entire code*/
+    box-sizing: border-box; /* this is the universal formatting tool for margin/padding setup */
     margin: 0;
     padding: 0;
-    height: 100%;
-}
-main{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
 }
 
 /*Actual HTML Styling*/
 
 body{/*background image styling*/
-    background-image: url(/images/background-technology-desktop.jpg);
+    /*background-image: url(/images/background-technology-desktop.jpg);*/
+    background-color: whitesmoke;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    font-family: Arial, sans-serif;
-    margin: 0;
 }
 
-.social-intro{
+main{
+    background-color: hsl(0, 0%, 12%);
+    width: 90%;
+    max-width: 31rem;
+    margin: 8rem auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+
+.social-intro{ /*this is to style the intro class which includes all code except the social links*/
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.social-pic{ /*this is to style the margin/padding of the image*/
+    margin-bottom: 25px;
+}
+
+img{ /*this is to style the image itself not the margin*/
+    width: 125px;
+    height: 125px;
+    border-radius: 50px; /*the higher the radius the more circular the img border becomes*/
+    border: 2px solid royalblue; /*adds a royal blue border around the image*/
+}
+
+.location{
+    margin-top: 15px;
+    color: royalblue;
+    font-size: 1.2rem; /* rem is used so that the font size is based on users browser settings */
+}
+
+.description{
+    margin-top: 35px; /*adds margin to the top of the description*/
+    margin-bottom: 30px; /*changes margin on bottom to 30px*/
+    font-weight: 700; /*makes the font bold at 700 weight*/
+    font-size: 1.0rem; /* rem is used so that the font size is based on users browser settings */
+
+
+}
+
+.social-links{
+    list-style: none; /*takes away the bulleted list*/
+    display: flex; /*turns the display into flex*/
+    align-items: center;
+    flex-direction: column; /*changes the flex display to column instead of defaulted row no gaps*/
+    gap:30px;
+}
+
+.social-links li a{
+    color: hsl(0, 0%, 100%);
+    display: block; /*this is to make the links block formatted*/
+    text-decoration: none; /*this is to take away the underline from the links*/
+    text-align: center; /*this is to center the text*/
+    background-color: hsl(0, 0%, 20%); /*this is to change the background color of the links*/
+    padding: 15px; /*this is to add padding to the links so that the height is correct*/
+    border-radius: 9px; /*this rounds off the ends of the block links*/
+
+}
+
+li{
+    
+    width: 100%; /*this is to make the list items take up 100% of the width of the parent element*/
+    
+}
+
+.social-links li a:hover,
+.social-links li a:focus{
+    color: hsl(0, 0%, 100%); /*this adds the white color to the text when hover is activated*/
+    background-color: royalblue; /*this adds the blue color to the highlighted link hover*/
+    transition: all 0.3s ease-in-out; /*this is to add a transition to the hover effect*/
+    
 }
