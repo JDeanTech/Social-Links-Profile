@@ -12,7 +12,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -33,8 +32,7 @@ Users should be able to:
 
 ### Links
 - github url: [https://github.com/JDeanTech/Social-Links-Profile.git]
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
 
 ## My process
 
@@ -46,14 +44,18 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned a lot about hover feature in CSS and working to learn more about margin and padding it can be a little confusing.
 
 To see how you can add code snippets, see below:
 
 ```html
-figured out how to use a link to open in new tab <li><a href="https://github.com/JDeanTech" target="_blank">GitHub</a></li>
+figured out how to use a link to open in new tab :
+
+<li><a href="https://github.com/JDeanTech" target="_blank">GitHub</a></li>
 ```
 ```css
+was able to setup a few links with hover/focus features:
+
 .social-links li a:hover,
 .social-links li a:focus{
     color: hsl(0, 0%, 100%); /*this adds the white color to the text when hover is activated*/
@@ -72,12 +74,6 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 In future developement im going to work on improving my ability to use padding/margin correctly
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
