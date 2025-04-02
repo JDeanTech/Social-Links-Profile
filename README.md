@@ -31,6 +31,7 @@ Users should be able to:
 
 
 ### Links
+- Live Site URL: [https://jdeantech.github.io/Social-Links-Profile/]
 - github url: [https://github.com/JDeanTech/Social-Links-Profile.git]
 
 
@@ -45,6 +46,8 @@ Users should be able to:
 ### What I learned
 
 I learned a lot about hover feature in CSS and working to learn more about margin and padding it can be a little confusing.
+
+I also learned how to upload the project to be hosted for FREE on Github Pages which is super nice
 
 To see how you can add code snippets, see below:
 
